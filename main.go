@@ -13,4 +13,11 @@ func main() {
 	for i := 0; i < 11; i++ {
 		fmt.Println(i)
 	}
+
+	numbers := []int{1, 2, 3, 4, 5}
+
+	for index, value := range numbers {
+		fmt.Println(index, value)
+	}
+
 }
