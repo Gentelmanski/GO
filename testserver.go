@@ -21,6 +21,7 @@ func main() {
 	fmt.Println("Server is listening on http://localhost:8080")
 	http.ListenAndServe("localhost:8080", nil)*/
 
+	//test
 	// Обработчик для статических файлов
 	fs := http.FileServer(http.Dir("./static"))
 	http.Handle("/", fs)
